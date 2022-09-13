@@ -2,7 +2,7 @@ import * as C from './styles'
 import {useState, useEffect, ChangeEvent} from 'react';
 
 import {usernameType} from '../../types/userName'
-import { MdAccessibleForward } from "react-icons/md";
+import { FaSistrix } from "react-icons/fa";
 
 import {api} from '../../data/api'
 
@@ -31,7 +31,7 @@ export const SearchBar = ({clickFunction}: Props)=>{
                 value={userName}
                 onChange={handleChangeUsername}
             />
-            <button onClick={handleClick} ><MdAccessibleForward/></button>
+            <button onClick={handleClick} ><FaSistrix fontSize={20}/></button>
         </C.Container>
     )
 }

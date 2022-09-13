@@ -13,11 +13,11 @@ export const Container  = styled.div`
     button{
         cursor: pointer;
         flex-grow: 1;
-        background-color: red;
+        background-color: #447EF2;
         border: none;
         transition:  .5s;
         &:hover{
-            background-color: blue;
+            background-color: #2E4BF2;
         }
     }
 `; 
